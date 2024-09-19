@@ -1,0 +1,333 @@
+<header class="header_main" [class.header-fixed]="scroll >= 40">
+  <div class="container-fluid px-0">
+    <div class="row align-items-center">
+      <div class="col-md-3">
+        <a class="logo" href="index.html">
+          <img src="assets/img/pdpl_logo_white.png" alt="" />
+        </a>
+      </div>
+      <div class="col-md-6 d-xl-block d-lg-none d-md-none d-none">
+        <div class="header_menus">
+          <ul
+            class="list-unstyled d-flex align-items-center justify-content-center m-0 p-0"
+          >
+            <li class="dropdown_main">
+              <a class="menulink" href="javascript:;" translate>Product</a>
+              <div class="dropdown_inner">
+                <a [routerLink]="['/consent-management-tool']" translate
+                  >Consent Management Tool</a
+                >
+                <a [routerLink]="['/grievance-redressal']" translate
+                  >Grievance Redressal Tool</a
+                >
+                <a [routerLink]="['/data-protection']" translate
+                  >Data Protection Impact Assessment</a
+                >
+                <a [routerLink]="['/awareness-program']" translate
+                  >PDPL Awareness Program</a
+                >
+              </div>
+            </li>
+            <li class="dropdown_main">
+              <a class="menulink" href="javascript:;" translate>Service </a>
+              <div class="dropdown_inner">
+                <a routerLink="/readiness-review" translate
+                  >PDPLA Readiness Review</a
+                >
+                <a routerLink="/contract-review" translate>Contract Review</a>
+                <a routerLink="/compliance-assistance" translate
+                  >PDPL Compliance Assistance</a
+                >
+                <a routerLink="/gap-analysis" translate>PDPL Gap Assessment</a>
+              </div>
+            </li>
+            <li class="dropdown_main">
+              <a class="menulink" href="javascript:;" translate>Company </a>
+              <div class="dropdown_inner">
+                <a routerLink="/about" translate>About Us</a>
+                <a routerLink="/career" translate>Careers</a>
+                <a routerLink="/contact" fragment="form" translate
+                  >Contact Us</a
+                >
+              </div>
+            </li>
+            <li class="dropdown_main">
+              <a class="menulink" href="javascript:;" translate>Resources </a>
+              <div class="dropdown_inner">
+                <a routerLink="/blogs" translate>Blogs</a>
+                <a routerLink="/case-studies" translate>Case Studies</a>
+                <a routerLink="/news" translate>News</a>
+                <a routerLink="/fines" translate>PDPL Fines & Penalties </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="col-xl-3 col-lg-auto col-md-auto col-auto d-flex align-items-center justify-content-end"
+      >
+        <a
+          class="demo_btn d-xl-flex d-lg-none d-md-none d-none"
+          translate
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          >Schedule a Demo</a
+        >
+        <div class="dropdown language">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <!-- <img [src]="selectedImage" alt="" /> -->
+            <span>{{ selectedText }}</span>
+            <img src="assets/img/arrow.png" alt="" />
+          </button>
+          <div class="dropdown-menu">
+            <a (click)="changeLanguage()">{{ unselectedText }}</a>
+          </div>
+        </div>
+        <div class="mobilemenus ms-lg-4 ms-md-3 ms-3">
+          <a
+            class="btn"
+            data-bs-toggle="offcanvas"
+            (click)="openSidebar()"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            <img src="assets/img/menu-4-line.svg" alt="" />
+          </a>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header p-0">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/img/logo_final.png" alt="" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset me-3"
+                data-bs-dismiss="offcanvas"
+                (click)="closeCanvas()"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body p-0 pt-4">
+              <div class="mobilemenus_inner">
+                <div
+                  class="mobilemenus_box dropdownicon"
+                  [class.active]="activeTab === 'Product'"
+                >
+                  <a
+                    class="menu_link"
+                    (click)="
+                      activeTab === '' || activeTab !== 'Product'
+                        ? (activeTab = 'Product')
+                        : (activeTab = '')
+                    "
+                    translate
+                    >Product
+                  </a>
+                  <div class="dropdown_mobile">
+                    <ul class="list-unstyled p-0 m-0">
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/consent-management-tool')"
+                          >Consent Management Tool</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/grievance-redressal')"
+                          >Grievance Redressal Tool</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/data-protection')"
+                          >Data Protection Impact Assessment</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/awareness-program')"
+                          >PDPL Awareness Program</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="mobilemenus_box dropdownicon"
+                  [class.active]="activeTab === 'Service'"
+                >
+                  <a
+                    class="menu_link"
+                    (click)="
+                      activeTab === '' || activeTab !== 'Service'
+                        ? (activeTab = 'Service')
+                        : (activeTab = '')
+                    "
+                    translate
+                    >Service
+                  </a>
+                  <div class="dropdown_mobile">
+                    <ul class="list-unstyled p-0 m-0">
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/readiness-review')"
+                          >PDPLA Readiness Review</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/grievance-redressal')"
+                          >Contract Review</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          translate
+                          (click)="dismissCollapse('/compliance-assistance')"
+                          >PDPL Compliance Assistance</a
+                        >
+                      </li>
+                      <li>
+                        <a translate (click)="dismissCollapse('/gap-analysis')"
+                          >PDPL Gap Assessment</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="mobilemenus_box dropdownicon"
+                  [class.active]="activeTab === 'Company'"
+                >
+                  <a
+                    class="menu_link"
+                    (click)="
+                      activeTab === '' || activeTab !== 'Company'
+                        ? (activeTab = 'Company')
+                        : (activeTab = '')
+                    "
+                    translate
+                    >Company
+                  </a>
+                  <div class="dropdown_mobile">
+                    <ul class="list-unstyled p-0 m-0">
+                      <li>
+                        <a (click)="dismissCollapse('/about')" translate
+                          >About Us</a
+                        >
+                      </li>
+                      <li>
+                        <a translate (click)="dismissCollapse('/career')"
+                          >Careers</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          fragment="form"
+                          translate
+                          (click)="closeCanvas()"
+                          routerLink="/contact"
+                          data-bs-dismiss="offcanvas"
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="mobilemenus_box dropdownicon"
+                  [class.active]="activeTab === 'Resources'"
+                >
+                  <a
+                    class="menu_link"
+                    (click)="
+                      activeTab === '' || activeTab !== 'Resources'
+                        ? (activeTab = 'Resources')
+                        : (activeTab = '')
+                    "
+                    translate
+                    >Resources
+                  </a>
+                  <div class="dropdown_mobile">
+                    <ul class="list-unstyled p-0 m-0">
+                      <li>
+                        <a translate (click)="dismissCollapse('/blogs')"
+                          >Blogs</a
+                        >
+                      </li>
+                      <li>
+                        <a translate (click)="dismissCollapse('/case-studies')"
+                          >Case Studies</a
+                        >
+                      </li>
+                      <li>
+                        <a translate (click)="dismissCollapse('/news')">News</a>
+                      </li>
+                      <li>
+                        <a translate (click)="dismissCollapse('/fines')"
+                          >PDPL Fines & Penalties
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="demo_btn d-flex mx-4 mt-4"
+                translate
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Schedule a Demo</a
+              >
+              <!-- <a style="display: none" data-bs-dismiss="offcanvas" #contactUS></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="assets/img/form-svg.png" alt="" class="img-fluid" />
+        <p class="title" translate>Schedule a demo with PDPL</p>
+        <p class="sub_heading" translate>
+          Our team of experts will contact you soon.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          class="comman_btn apply_now"
+          (click)="dismissCollapse('/contact', 'form')"
+        >
+          Fill Form
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<app-header
+  *ngIf="!router.url.includes('contacts') && !router.url.includes('login')"
+  (changeLanguageEvent)="changeLanguageEvent($event)"
+></app-header>
+<router-outlet></router-outlet>
+<app-footer
+  *ngIf="!router.url.includes('contacts') && !router.url.includes('login')"
+></app-footer>

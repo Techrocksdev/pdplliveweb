@@ -1,0 +1,1905 @@
+/* SCREEN 1440 TO 1580 MEDIA  */
+@media (max-width:1580px) {
+    .header_main {
+        height: 100px;
+        padding-right: 60px;
+    }
+
+    .demo_btn {
+        font-size: 17px;
+    }
+
+    .header_menus ul li .menulink {
+        margin: 0 32px;
+    }
+
+    .container {
+        max-width: 1380px;
+    }
+
+    .dpdpbanner_content h1 {
+        font-size: 60px;
+        line-height: 82.8px;
+        margin-bottom: 30px;
+    }
+
+    .dpdpbanner_content .banner_img {
+        max-width: 80%;
+        display: block;
+        margin: 70px auto 0;
+    }
+
+    .dpdp_first {
+        padding: 280px 0 220px;
+    }
+
+    .dpdpbanner_content p {
+        font-size: 19px;
+        line-height: 32px;
+        max-width: 810px;
+        margin: 0 auto 40px;
+    }
+
+    .comman_heading h2 {
+        font-size: 42px;
+        line-height: 49.51px;
+        margin-bottom: 15px;
+    }
+
+    .threestep strong {
+        font-size: 20px;
+        line-height: 29.26px;
+        text-align: left;
+    }
+
+    .easysteps_box h3 {
+        font-size: 30px;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 40px;
+        line-height: 54.51px;
+        margin-bottom: 30px;
+    }
+
+    .whyus_client {
+        top: -170px;
+        left: -40px;
+        max-width: 160px;
+    }
+
+    .clientslide_1 {
+        left: -180px;
+        top: -140px;
+        max-width: 100%;
+    }
+
+    .clientslide_2 {
+        bottom: 50px;
+        right: -210px;
+        max-width: 160px;
+    }
+
+    .leading_content h3 {
+        font-size: 42px;
+        line-height: 56px;
+        margin-bottom: 25px;
+    }
+
+    .dpdp_first.similar_section {
+        padding: 240px 0 180px;
+    }
+}
+
+/* SCREEN 1280 TO 1439 MEDIA  */
+@media (max-width:1439px) {
+    .logo img {
+        max-width: 90%;
+    }
+
+    .header_main {
+        height: 80px;
+        padding-right: 40px;
+    }
+
+    .demo_btn {
+        font-size: 16px;
+        margin-right: 20px;
+        padding: 0px 16px;
+    }
+
+    .header_menus ul li .menulink {
+        font-size: 16px;
+    }
+
+    .dpdpbanner_content h1 {
+        font-size: 48px;
+        line-height: 62.8px;
+        max-width: 800px;
+        margin: 0 auto 28px;
+    }
+
+    .dpdp_first {
+        padding: 210px 0 170px;
+    }
+
+    .banner_btn {
+        height: 52px;
+        padding: 14px 40px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 33.6px;
+    }
+
+    .dpdpbanner_content .banner_img {
+        max-width: 70%;
+        display: block;
+        margin: 60px auto 0;
+    }
+
+    .dpdp_img2 {
+        top: -60px;
+        left: 50px;
+        max-width: 90px;
+    }
+
+    .dpdp_img1 {
+        left: -100px;
+        top: 220px;
+        max-width: 130px;
+    }
+
+    .dpdp_img5 {
+        left: 40px;
+        bottom: 240px;
+        max-width: 110px;
+    }
+
+    .dpdp_img3 {
+        top: 350px;
+        right: 70px;
+        max-width: 120px;
+    }
+
+    .dpdp_img4 {
+        top: -10px;
+        right: 20px;
+        max-width: 80px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .Compliance_box {
+        margin-bottom: 20px;
+    }
+
+    .effortlessly_content h2 {
+        font-size: 30px;
+        line-height: 40.8px;
+        margin-bottom: 20px;
+    }
+
+    .comman_btn {
+        height: 52px;
+        padding: 14px 40px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 33.6px;
+    }
+
+    .similar_content h2 {
+        font-size: 32px;
+        line-height: 42.2px;
+        margin-bottom: 20px;
+    }
+
+    .similar_section.section_text_white .similar_content h2.text-lg {
+        font-size: 32px;
+    }
+
+    .similar_content p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .similar_section {
+        padding: 60px 0;
+    }
+
+    .comman_space {
+        padding: 100px 0;
+    }
+
+    .comman_heading h2 {
+        font-size: 36px;
+        line-height: 42.51px;
+        margin-bottom: 12px;
+    }
+
+    .easysteps_main {
+        margin-top: 50px;
+    }
+
+    .easysteps_count {
+        width: 42px;
+        height: 42px;
+        font-size: 19px;
+        line-height: 39.01px;
+        margin: 0 auto 50px;
+        z-index: 2;
+    }
+
+    .easysteps_box::after {
+        top: -77px;
+    }
+
+    .easysteps_box h3 {
+        font-size: 26px;
+        line-height: 35.01px;
+    }
+
+    .easysteps_box p {
+        font-size: 18px;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 32px;
+        line-height: 42.51px;
+        margin-bottom: 20px;
+    }
+
+    .whyus_client {
+        top: -150px;
+        left: -40px;
+        max-width: 130px;
+    }
+
+    .whyus_content h4 {
+        font-size: 26px;
+        line-height: 29.01px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .whyus_content h3 {
+        font-size: 20px;
+    }
+
+    .leading_client {
+        top: 20px;
+        left: 0px;
+        width: auto;
+        max-width: 150px;
+    }
+
+    .leading_content h3 {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+
+    .circle_logo img {
+        max-width: 70%;
+    }
+
+    .circle_logo {
+        text-align: center;
+    }
+
+    .circle_1 {
+        height: 750px;
+        width: 750px;
+    }
+
+    .circle_2 {
+        height: 550px;
+        width: 550px;
+    }
+
+    .circle_3 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .circle_icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .design_mix h3 {
+        font-size: 15px;
+        line-height: 20.2px;
+        width: 70%;
+        padding: 0 15px 0 9px;
+        margin: 0;
+    }
+
+    .circle2_inner {
+        position: absolute;
+        top: -26px;
+        right: 140px;
+    }
+
+    .circle3inner2 {
+        left: -144px;
+    }
+
+    .circle3inner1 {
+        right: -140px;
+        top: 40px;
+    }
+
+    .key_features .item img {
+        width: 180px;
+    }
+
+    .key_features .item h3 {
+        font-size: 20px;
+    }
+
+    .key_features .item p {
+        font-size: 16px;
+    }
+}
+
+/* SCREEN 1200 TO 1279 MEDIA  */
+@media (max-width:1279px) {
+    .header_menus ul li .menulink {
+        font-size: 15px;
+    }
+
+    .logo img {
+        max-width: 85%;
+    }
+
+    .header_main {
+        height: auto;
+        padding-right: 40px;
+        top: 30px;
+    }
+
+    .language .btn {
+        font-size: 14px;
+    }
+
+    .demo_btn {
+        font-size: 14px;
+        margin-right: 20px;
+        padding: 0px 16px;
+        height: 42px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .dpdp_img2 {
+        top: -60px;
+        left: 30px;
+        max-width: 90px;
+    }
+
+    .Compliance_top h2 {
+        font-size: 26px;
+        line-height: 38.8px;
+    }
+
+    .dpdp_banner::before {
+        background-size: 670px;
+    }
+
+    .compliance_icon {
+        width: 60px;
+        height: 58px;
+    }
+
+    .compliance_head h3 {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .owl-dots .owl-dot {
+        width: 42px !important;
+        height: 6px !important;
+        margin: 0 5px !important;
+    }
+
+    .effortlessly_content h2 {
+        font-size: 26px;
+        line-height: 39.8px;
+        margin-bottom: 18px;
+    }
+
+    .effortlessly_content p {
+        font-size: 17px;
+        line-height: 28.8px;
+    }
+
+    .circle_1 {
+        height: 700px;
+        width: 700px;
+    }
+
+    .circle_2 {
+        height: 500px;
+        width: 500px;
+    }
+
+    .circle_3 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .similar_content p {
+        font-size: 17px;
+        line-height: 31px;
+    }
+
+    .comman_heading h2 {
+        font-size: 32px;
+        line-height: 36.51px;
+        margin-bottom: 10px;
+    }
+
+    .threestep strong {
+        font-size: 17px;
+        line-height: 27.26px;
+    }
+
+    .threestep span {
+        width: 10px;
+        height: 10px;
+        margin: 0 18px;
+    }
+
+    .easysteps_box h3 {
+        font-size: 24px;
+        line-height: 32.01px;
+    }
+
+    .easysteps_box p {
+        font-size: 17px;
+    }
+
+    .comman_heading p {
+        font-size: 17px;
+        line-height: 27.8px;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 28px;
+        line-height: 40.51px;
+        margin-bottom: 20px;
+    }
+
+    .meetingocal_slider {
+        padding: 40px 0 !important;
+    }
+
+    .meetingocal_slider .owl-nav .owl-prev,
+    .meetingocal_slider .owl-nav .owl-next {
+        height: 40px;
+        width: 40px;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .whyus_slider .owl-nav .owl-prev,
+    .whyus_slider .owl-nav .owl-next {
+        height: 40px;
+        width: 40px;
+    }
+
+    .whyus_content p {
+        font-size: 17px;
+        font-weight: 500;
+        color: #000;
+        line-height: 27.8px;
+    }
+
+    .whyus_content h4 {
+        font-size: 25px;
+        line-height: 30.01px;
+        margin-bottom: 18px;
+    }
+
+    .clientslide_1 {
+        left: -150px;
+        top: -140px;
+        max-width: 120px;
+    }
+
+    .clientsslider_innner {
+        border-radius: 24px;
+        padding: 50px 30px 30px;
+        display: flex;
+    }
+
+    .leading_content h3 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+
+    .leading_content p {
+        font-size: 17px;
+        line-height: 27.8px;
+    }
+
+    .getintouch_form .form-group .form-control {
+        height: 52px;
+        border-radius: 10px;
+        padding: 16px 15px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24.38px;
+    }
+
+    .getintouch_form .submit_btn {
+        height: 52px;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 29.26px;
+    }
+
+    .faq_box_head {
+        padding: 20px 0;
+        display: block;
+        font-size: 20px;
+    }
+
+    .faq_data {
+        font-size: 18px;
+    }
+
+    .our_team .card .name {
+        font-size: 20px;
+    }
+
+    .our_team .card .profile {
+        font-size: 14px;
+    }
+
+    .border_box {
+        margin-bottom: 30px;
+    }
+}
+
+/* SCREEN 1024 TO 1199 MEDIA  */
+@media (max-width:1199px) {
+    .logo img {
+        max-width: 95%;
+    }
+
+    .header_main .row>.col-md-3 {
+        flex: 1 0 0%;
+    }
+
+    .logo img {
+        max-width: 30%;
+    }
+
+    .demo_btn {
+        font-size: 15px;
+        margin-right: 30px;
+        padding: 0px 16px;
+        height: 42px;
+    }
+
+    .mobilemenus {
+        display: block;
+    }
+
+    .mobilemenus .btn {
+        padding: 0;
+        border: 0;
+        outline: 0;
+        box-shadow: unset;
+    }
+
+    .mobilemenus .btn img {
+        filter: brightness(10.5);
+        max-width: 34px;
+    }
+
+    .offcanvas-title img {
+        max-width: 190px;
+    }
+
+    .header_main {
+        padding-right: 30px;
+        top: 24px;
+    }
+
+    .mobilemenus_box {
+        border-bottom: 1px solid rgb(11 14 34 / 17%);
+    }
+
+    .mobilemenus_box .menu_link {
+        height: 50px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        color: rgba(5, 8, 26, 1);
+        font-size: 16px;
+        position: relative;
+        padding: 0 20px;
+        z-index: 1;
+    }
+
+    .dropdown_mobile {
+        padding: 20px 20px;
+        background-color: #f2f2f2;
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        display: none;
+    }
+
+    .dropdownicon.active .dropdown_mobile {
+        opacity: 1;
+        display: block;
+    }
+
+    .dropdown_mobile a {
+        display: flex;
+        align-items: center;
+        color: rgba(5, 8, 26, 1);
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .dropdown_mobile ul li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 12px;
+    }
+
+    .dropdown_mobile ul li::after {
+        position: absolute;
+        content: '';
+        top: 6px;
+        left: 0;
+        height: 8px;
+        width: 8px;
+        border-radius: 50px;
+        background-color: #48CAE4
+    }
+
+    .dropdownicon .menu_link::after {
+        position: absolute;
+        content: '';
+        top: 59%;
+        right: 20px;
+        transform: translateY(-50%);
+        background-image: url(../img/arrow.png);
+        filter: brightness(0);
+        height: 16px;
+        width: 16px;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .dropdownicon.active .menu_link::after {
+        transform: translateY(-14px) rotate(-180deg);
+    }
+
+    .container {
+        max-width: 98% !important;
+    }
+
+    .dpdpbanner_content h1 {
+        font-size: 40px;
+        line-height: 58.8px;
+        max-width: 800px;
+        margin: 0 auto 22px;
+    }
+
+    .dpdpbanner_content p {
+        font-size: 17px;
+        line-height: 30px;
+        max-width: 650px;
+        margin: 0 auto 30px;
+    }
+
+    .dpdp_first {
+        padding: 190px 0 150px;
+    }
+
+    .dpdp_img2 {
+        top: -40px;
+        left: 10px;
+        max-width: 80px;
+    }
+
+    .dpdp_img1 {
+        left: -90px;
+        top: 200px;
+        max-width: 110px;
+    }
+
+    .banner_btn {
+        height: 50px;
+        padding: 14px 30px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 33.6px;
+    }
+
+    .dpdp_banner::before {
+        background-size: 540px;
+        top: 230px;
+    }
+
+    .dpdp_banner::after {
+        left: 0;
+        top: 520px;
+        height: 748px;
+        width: 100%;
+        background-size: 400px;
+    }
+
+    .dpdpbanner_content .banner_img {
+        max-width: 60%;
+        display: block;
+        margin: 40px auto 0;
+    }
+
+    .dpdp_img5 {
+        left: 40px;
+        bottom: 140px;
+        max-width: 100px;
+    }
+
+    .dpdp_img3 {
+        top: 270px;
+        right: 70px;
+        max-width: 110px;
+    }
+
+    .Compliance_top h2 {
+        font-size: 22px;
+        line-height: 33.8px;
+    }
+
+    .effortlessly_content h2 {
+        font-size: 24px;
+        line-height: 36.8px;
+        margin-bottom: 16px;
+    }
+
+    .effortlessly_content p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .comman_btn {
+        height: 50px;
+        padding: 14px 30px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 33.6px;
+    }
+
+    .circle_1 {
+        height: 600px;
+        width: 600px;
+    }
+
+    .circle_2 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .circle_3 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .circle_logo img {
+        max-width: 60%;
+    }
+
+    .design_mix h3 {
+        font-size: 13px;
+        line-height: 19.2px;
+        width: 70%;
+        padding: 0 15px 0 9px;
+        margin: 0;
+    }
+
+    .circle_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .circle1_inner {
+        top: 122px;
+        left: 18px;
+    }
+
+    .circle2_inner {
+        top: -16px;
+        right: 80px;
+    }
+
+    .circle3inner2 {
+        left: -124px;
+    }
+
+    .circle3inner1 {
+        right: -140px;
+        top: 0px;
+    }
+
+    .circle3inner1 {
+        right: -140px;
+        top: 0px;
+    }
+
+    .compliance_head h3 {
+        font-size: 17px;
+        line-height: 31px;
+    }
+
+    .Compliance_box {
+        margin-bottom: 10px;
+    }
+
+    .compliance_head p {
+        font-size: 15px;
+        line-height: 27.8px;
+    }
+
+    .similar_content h2 {
+        font-size: 26px;
+        line-height: 34.2px;
+        margin-bottom: 15px;
+    }
+
+    .similar_section.section_text_white .similar_content h2.text-lg {
+        font-size: 26px;
+    }
+
+    .similar_content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .similar_section {
+        padding: 50px 0;
+    }
+
+    .comman_space {
+        padding: 80px 0;
+    }
+
+    .comman_heading h2 {
+        font-size: 30px;
+        line-height: 40.51px;
+        margin-bottom: 8px;
+    }
+
+    .comman_heading p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .comman_heading p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .easysteps_main {
+        margin-top: 40px;
+    }
+
+    .easysteps_main {
+        margin-top: 40px;
+    }
+
+    .easysteps_box h3 {
+        font-size: 22px;
+        line-height: 30.01px;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 26px;
+        line-height: 37.51px;
+        margin-bottom: 16px;
+    }
+
+    .meetingocal_content p {
+        font-size: 16px;
+        line-height: 27.8px;
+    }
+
+    .whyus_client {
+        top: -140px;
+        left: 0px;
+        max-width: 100px;
+    }
+
+    .whyus_content {
+        padding-left: 0;
+    }
+
+    .whyus_content h4 {
+        font-size: 22px;
+        line-height: 28.01px;
+        margin-bottom: 14px;
+    }
+
+    .whyus_content p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .comman_heading {
+        margin-bottom: 50px;
+    }
+
+    .clientslide_1 {
+        left: -40px;
+        top: -140px;
+        max-width: 100px;
+    }
+
+    .clientsslider_right p {
+        font-size: 16px;
+        line-height: 25.2px;
+        margin-bottom: 20px;
+    }
+
+    .clientmain_pic {
+        margin-right: 15px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .clientmain_top h3 {
+        font-size: 18px;
+        line-height: 18.4px;
+    }
+
+    .clientmain_top span {
+        font-size: 16px;
+        line-height: 19.4px;
+    }
+
+    .clientslide_2 {
+        bottom: -50px;
+        right: 0;
+        max-width: 100px;
+    }
+
+    .leading_content {
+        padding: 0 40px;
+    }
+
+    .leading_content h3 {
+        font-size: 24px;
+        line-height: 37px;
+        margin-bottom: 15px;
+    }
+
+    .leading_content p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .getintouch_form .form-group .form-control {
+        height: 52px;
+        font-size: 15px;
+        line-height: 24.38px;
+    }
+
+    .getintouch_form .submit_btn {
+        font-size: 16px;
+        line-height: 29.26px;
+    }
+
+    .footer_main {
+        padding: 60px 0 0;
+    }
+
+    .copyright {
+        padding: 20px 10px;
+        margin-top: 60px;
+    }
+
+    .vector-2 {
+        right: 0px;
+        width: 110px;
+    }
+
+    .dpdp_first.similar_section {
+        padding: 190px 30px 180px;
+    }
+
+    .border_box {
+        text-align: center;
+    }
+
+    .border_box img {
+        margin-bottom: 30px;
+    }
+
+    .border_box h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .border_box p {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* SCREEN 768 TO 1023 MEDIA  */
+@media (max-width:1023px) {
+    .logo img {
+        max-width: 38%;
+    }
+
+    .header_main {
+        padding-right: 20px;
+        top: 18px;
+    }
+
+    .dpdp_img1,
+    .dpdp_img2,
+    .dpdp_img3,
+    .dpdp_img4,
+    .dpdp_img5 {
+        display: none;
+    }
+
+    .dpdp_first {
+        padding: 140px 0 140px;
+    }
+
+    .dpdpbanner_content h1 {
+        font-size: 34px;
+        line-height: 50.8px;
+        max-width: 800px;
+        margin: 0 auto 16px;
+    }
+
+    .dpdpbanner_content p {
+        font-size: 16px;
+        line-height: 29px;
+        max-width: 100%;
+        margin: 0 auto 25px;
+    }
+
+    .dpdp_banner::before {
+        background-size: 330px;
+        top: 20px;
+    }
+
+    .dpdp_banner::after {
+        left: 0;
+        top: 290px;
+        height: 748px;
+        width: 100%;
+        background-size: 370px;
+    }
+
+    .compliance_project {
+        margin: -40px 0 0;
+    }
+
+    .Compliance_top h2 {
+        font-size: 20px;
+        line-height: 31.8px;
+        margin: 0;
+    }
+
+    .order_top {
+        order: -1;
+        margin-bottom: 40px;
+    }
+
+    .effortlessly_manage {
+        margin-bottom: 0;
+        padding: 40px 0 40px;
+    }
+
+    .similar_content {
+        padding: 0;
+    }
+
+    .similar_img img {
+        max-width: 70%;
+    }
+
+    .similar_img {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .similar_content h2 {
+        font-size: 24px;
+        line-height: 31.2px;
+        margin-bottom: 15px;
+    }
+
+    .similar_section.section_text_white .similar_content h2.text-lg {
+        font-size: 24px;
+    }
+
+    .similar_section .order_top {
+        margin: 0;
+    }
+
+    .comman_space {
+        padding: 60px 0;
+    }
+
+    .easysteps_box::after {
+        display: none;
+    }
+
+    .easysteps_count {
+        width: 42px;
+        height: 42px;
+        font-size: 19px;
+        line-height: 39.01px;
+        margin: 0 auto 20px;
+        z-index: 2;
+    }
+
+    .threestep strong {
+        font-size: 16px;
+        line-height: 26.26px;
+    }
+
+    .focusmatters_imgs {
+        margin: -40px 0 -20px;
+    }
+
+    .effortlessly_content h2 {
+        font-size: 22px;
+        line-height: 32.8px;
+        margin-bottom: 12px;
+    }
+
+    .similar_section {
+        padding: 50px 0;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .comman_heading h2 {
+        font-size: 26px;
+        line-height: 35.51px;
+        margin-bottom: 8px;
+    }
+
+    .comman_heading {
+        margin-bottom: 35px;
+    }
+
+    .leading_client {
+        display: none;
+    }
+
+    .faq_box_head {
+        font-size: 18px;
+    }
+
+    .faq_data {
+        font-size: 16px;
+    }
+
+    .faq_box_head::after {
+        height: 14px;
+        width: 14px;
+    }
+
+    .getintouch_form {
+        padding: 40px 30px;
+    }
+
+    .comman_heading p {
+        font-size: 15px;
+        line-height: 25.8px;
+    }
+
+    .leading_content {
+        padding: 41px 40px;
+    }
+
+    .leading_main::after {
+        display: none;
+    }
+
+    .leading_content h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .leading_content p {
+        font-size: 15px;
+        line-height: 26.8px;
+        margin-bottom: 20px;
+    }
+
+    .clientslide_1,
+    .clientslide_2 {
+        display: none;
+    }
+
+    .quote {
+        font-size: 60px;
+        line-height: 40px;
+    }
+
+    .clientsslider_innner {
+        border-radius: 24px;
+        padding: 40px 25px 25px;
+    }
+
+    .whyus_client {
+        display: none;
+    }
+
+    .whyus_img img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .whyus_img {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .whyus_content h4 {
+        font-size: 20px;
+        line-height: 26.01px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+
+    .whyus_content h3 {
+        font-size: 17px;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .whyus_slider .owl-nav {
+        margin-top: 10px;
+    }
+
+    .meetingocal_img img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .meetingocal_img {
+        text-align: center;
+    }
+
+    .meetingocal_slider {
+        padding: 0 !important;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 22px;
+        line-height: 30.51px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .meetingocal_content p {
+        text-align: center;
+    }
+
+    .meetingocal_slider .owl-nav {
+        position: unset;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .meetingocal_slider .owl-dots {
+        display: none !important;
+    }
+
+    .whyus_slider .owl-nav {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .whyus_content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .focusmatters_imgs {
+        margin: -20px 0 -20px;
+    }
+
+    .easysteps_box h3 {
+        font-size: 20px;
+        line-height: 26.01px;
+    }
+
+    .vector-1 {
+        display: none;
+    }
+
+    .vector-2 {
+        display: none;
+    }
+
+    .circle_vector_1 {
+        display: none;
+    }
+
+    .circle_vector_2 {
+        display: none;
+    }
+
+    .vector_circle_2 {
+        display: none;
+    }
+
+    .vector_client_1 {
+        display: none;
+    }
+
+    .vector_client_2 {
+        display: none;
+    }
+
+    .vector_client_3 {
+        display: none;
+    }
+
+    .vector_client_4 {
+        display: none;
+    }
+
+    .vector_client_5 {
+        display: none;
+    }
+
+    .vector_client_6 {
+        display: none;
+    }
+
+    .vector_client_7 {
+        display: none;
+    }
+
+    .vector_client_8 {
+        display: none;
+    }
+
+    .team-vector {
+        display: none;
+    }
+
+    .blog_listing .item .title {
+        font-size: 20px;
+    }
+
+    .blog_listing .item .sub_title {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .similar_content p {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .similar_content h2 {
+        text-align: center;
+    }
+
+    .similar_img img {
+        max-width: 50%;
+    }
+
+    .leading_content h3 {
+        font-size: 18px;
+    }
+
+    .leading_content p {
+        font-size: 14px;
+    }
+
+    .our_team .card {
+        margin-bottom: 30px;
+    }
+
+    .dpdp_first.similar_section {
+        padding: 140px 30px 100px;
+    }
+
+    .mb-order {
+        position: relative;
+        order: 2;
+    }
+
+    .key_features .item {
+        margin-bottom: 30px;
+    }
+
+    .how_it_works {
+        padding: 70px 30px;
+    }
+
+    .opening_positions .row-item {
+        margin-bottom: 20px;
+    }
+
+    .career .similar_img {
+        margin-top: 30px;
+    }
+
+    .blog_listing .item img {
+        width: 430px;
+    }
+
+
+}
+
+/* SCREEN 320 TO 767 MEDIA  */
+@media (max-width:767px) {
+    .logo img {
+        max-width: 150px;
+    }
+
+    .header_main .row {
+        flex-wrap: nowrap;
+    }
+
+    .language .btn {
+        font-size: 14px;
+        text-indent: -999px;
+    }
+
+    .language .btn span {
+        margin: 0 10px 0 0;
+    }
+
+    .logo img {
+        max-width: 170px;
+    }
+
+    .dpdp_first {
+        padding: 120px 0 110px;
+    }
+
+    .dpdpbanner_content h1 {
+        font-size: 26px;
+        line-height: 35.8px;
+        max-width: 100%;
+        margin: 0 auto 16px;
+    }
+
+    .dpdpbanner_content p {
+        font-size: 15px;
+        line-height: 26px;
+        max-width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .banner_btn {
+        height: 42px;
+        padding: 14px 20px;
+        border-radius: 4px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 33.6px;
+    }
+
+    .dpdpbanner_content .banner_img {
+        max-width: 100%;
+        display: block;
+        margin: 40px auto 0;
+    }
+
+    .dpdp_banner::before,
+    .dpdp_banner::after {
+        display: none;
+    }
+
+    .owl-dots .owl-dot {
+        width: 12px !important;
+        height: 12px !important;
+        margin: 0 5px !important;
+    }
+
+    .Compliance_top h2 {
+        font-size: 18px;
+        line-height: 30.8px;
+        margin: 0;
+    }
+
+    .compliance_head h3 {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .compliance_head p {
+        font-size: 15px;
+        line-height: 26.8px;
+        text-align: center;
+    }
+
+    .compliance_icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 5px;
+    }
+
+    .compliance_icon img {
+        transform: scale(1);
+    }
+
+    .Compliance_top h2 {
+        font-size: 18px;
+        line-height: 30.8px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .effortlessly_content h2 {
+        font-size: 20px;
+        line-height: 30.8px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .effortlessly_content p {
+        font-size: 15px;
+        line-height: 25.8px;
+        text-align: center;
+    }
+
+    .comman_btn {
+        height: 42px;
+        padding: 14px 20px;
+        border-radius: 4px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 33.6px;
+    }
+
+    .effortlessly_content {
+        text-align: center;
+    }
+
+    .similar_content h2 {
+        font-size: 20px;
+        line-height: 28.2px;
+        margin-bottom: 14px;
+    }
+
+    .similar_section.section_text_white .similar_content h2.text-lg {
+        font-size: 20px;
+    }
+
+    .similar_content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .similar_img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .easy_steps,
+    .meeting_local,
+    .getintouch {
+        border-radius: 0;
+    }
+
+    .comman_space {
+        padding: 50px 0;
+    }
+
+    .comman_heading h2 {
+        font-size: 22px;
+        line-height: 31.51px;
+        margin-bottom: 8px;
+    }
+
+    .threestep strong {
+        font-size: 15px;
+        line-height: 25.26px;
+    }
+
+    .threestep span {
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+    }
+
+    .easysteps_count {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+        line-height: 39.01px;
+        margin: 0 auto -19px;
+        z-index: 2;
+    }
+
+    .easysteps_main {
+        margin-top: 30px;
+    }
+
+    .easysteps_box h3 {
+        font-size: 19px;
+        line-height: 27.01px;
+    }
+
+    .easysteps_box p {
+        font-size: 15px;
+        line-height: 23.38px;
+    }
+
+    .focusmatters_imgs {
+        margin: -10px 0 -20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .focusmatters_box {
+        width: 100%;
+    }
+
+    .meetingocal_img img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .order_top {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .meetingocal_content h3 {
+        font-size: 20px;
+        line-height: 30.51px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .meetingocal_content p {
+        font-size: 15px;
+        line-height: 26.8px;
+    }
+
+    .meetingocal_slider .owl-nav .owl-prev,
+    .meetingocal_slider .owl-nav .owl-next {
+        height: 35px;
+        width: 35px;
+        margin: 0 8px;
+    }
+
+    .whyus_img img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .whyus_content h4 {
+        font-size: 18px;
+        line-height: 26.01px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+
+    .whyus_content p {
+        font-size: 15px;
+        line-height: 26.8px;
+    }
+
+    .whyus_slider .owl-nav .owl-prev,
+    .whyus_slider .owl-nav .owl-next {
+        height: 35px;
+        width: 35px;
+    }
+
+    .whyus_slider .owl-nav .owl-prev,
+    .whyus_slider .owl-nav .owl-next {
+        height: 35px;
+        width: 35px;
+        margin: 0 7px;
+    }
+
+    .clientsslider_innner {
+        border-radius: 14px;
+        padding: 30px 15px 20px;
+        flex-wrap: wrap;
+    }
+
+    .quote {
+        font-size: 100px;
+        line-height: 70px;
+        margin-bottom: -20px;
+    }
+
+    .clientsslider_right p {
+        font-size: 15px;
+        line-height: 25.2px;
+        margin-bottom: 20px;
+    }
+
+    .clientmain {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clientmain_pic {
+        margin-right: 0;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 16px;
+    }
+
+    .clientmain_top h3 {
+        font-size: 16px;
+        line-height: 16.4px;
+        text-align: center;
+    }
+
+    .clientmain_top {
+        text-align: center;
+    }
+
+    .clientmain_top span {
+        font-size: 14px;
+        line-height: 16.4px;
+        text-align: center;
+    }
+
+    .leading_content {
+        padding: 30px 20px;
+    }
+
+    .leading_content h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 9px;
+    }
+
+    .leading_main,
+    .getintouch_main {
+        border-radius: 26px;
+    }
+
+    .getintouch_form {
+        padding: 30px 20px;
+        border-radius: 14px;
+    }
+
+    .getintouch_form .submit_btn {
+        font-size: 15px;
+        line-height: 28.26px;
+        height: 50px;
+    }
+
+    .faq_main {
+        max-width: 100%;
+        border-radius: 14px;
+        padding: 16px;
+    }
+
+    .faq_box_head {
+        font-size: 15px;
+        line-height: 26.26px;
+        padding: 16px 0;
+    }
+
+    .faq_data {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .footer_main {
+        padding: 40px 0 0;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .about_footer p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 25.6px;
+        margin: 20px 0 20px;
+    }
+
+    .footer_lins h2 {
+        font-size: 18px;
+        line-height: 21.94px;
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+
+    .footer_lins ul li a {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        display: block;
+    }
+
+    .copyright {
+        padding: 11px 10px;
+        margin-top: 20px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .border_box {
+        min-height: auto;
+    }
+
+    .top_title {
+        margin-bottom: 20px;
+    }
+
+    .top_title h3 {
+        font-size: 24px;
+    }
+
+    .top_title span {
+        font-size: 16px;
+    }
+
+    .blog_listing .item img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .blog_listing .item {
+        text-align: center;
+    }
+
+    .blog_details .item .title {
+        font-size: 20px;
+    }
+
+    .blog_details .item .sub_title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px) {
+    .similar_img img {
+        max-width: 100%;
+    }
+
+    .top_title {
+        display: block !important;
+    }
+
+    .blog_listing .item .title {
+        font-size: 16px;
+    }
+
+    .news_info span {
+        margin-bottom: 10px;
+    }
+}

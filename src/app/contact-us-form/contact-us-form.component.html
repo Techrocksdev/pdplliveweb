@@ -1,0 +1,179 @@
+<form class="row" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="text"
+      class="form-control"
+      formControlName="name"
+      placeholder="Full Name"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['name']?.touched &&
+        contactForm.controls['name']?.errors &&
+        contactForm.controls['name']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+  </div>
+
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="text"
+      class="form-control"
+      formControlName="email"
+      placeholder="Email"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['email']?.touched &&
+        contactForm.controls['email']?.errors &&
+        contactForm.controls['email']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['email']?.touched &&
+        contactForm.controls['email']?.errors &&
+        contactForm.controls['email']?.hasError('pattern')
+      "
+    >
+      Invalid
+    </p>
+  </div>
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="number"
+      formControlName="contact"
+      class="form-control"
+      placeholder="Contact"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['contact']?.touched &&
+        contactForm.controls['contact']?.errors &&
+        contactForm.controls['contact']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['contact']?.touched &&
+        contactForm.controls['contact']?.errors &&
+        contactForm.controls['contact']?.hasError('pattern')
+      "
+    >
+      Invalid
+    </p>
+  </div>
+
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="text"
+      formControlName="companyName"
+      class="form-control"
+      placeholder="Company Name"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['companyName']?.touched &&
+        contactForm.controls['companyName']?.errors &&
+        contactForm.controls['companyName']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+  </div>
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="text"
+      formControlName="designation"
+      class="form-control"
+      placeholder="Designation"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['designation']?.touched &&
+        contactForm.controls['designation']?.errors &&
+        contactForm.controls['designation']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+  </div>
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <input
+      type="text"
+      formControlName="subject"
+      class="form-control"
+      placeholder="Subject"
+    />
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['subject']?.touched &&
+        contactForm.controls['subject']?.errors &&
+        contactForm.controls['subject']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+  </div>
+  <div class="form-group mb-xl-3 mb-lg-3 mb-md-3 mb-3 col-md-12">
+    <textarea
+      class="form-control"
+      formControlName="message"
+      name=""
+      id=""
+      style="height: 100px"
+      placeholder="Message"
+    ></textarea>
+    <p
+      style="color: red"
+      *ngIf="
+        contactForm.controls['message']?.touched &&
+        contactForm.controls['message']?.errors &&
+        contactForm.controls['message']?.hasError('required')
+      "
+    >
+      Required*
+    </p>
+  </div>
+  <div class="form-group col-md-12">
+    <button class="submit_btn" type="submit">Send</button>
+  </div>
+</form>
+<div
+  class="modal fade"
+  id="thankyouModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="assets/img/check-svg.png" alt="" class="img-fluid" />
+        <p class="title">Thankyou for submitting your details.</p>
+        <p class="sub_heading">
+          Our team of experts will contact you very soon.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button class="comman_btn apply_now" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
